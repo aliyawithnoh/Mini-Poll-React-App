@@ -38,7 +38,7 @@ onVote={() => handleVote(index)}
 />
 ))}
 <h2>
-Current Leader: {leader.option} with {leader.count} votes
+Leading Count: {leader.option} with {leader.count} votes
 </h2>
 </div>
 );
