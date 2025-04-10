@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PollOption from './PollOption';
 
 const App = () => {
-// Initialize state with an array of pet objects
+//  array of pet objects
 const [pets, setPets] = useState([
 { option: 'Dog', count: 0 },
 { option: 'Cat', count: 0 },
@@ -11,7 +11,7 @@ const [pets, setPets] = useState([
 { option: 'Human?!', count: 0 },
 ]);
 
-// Function to handle vote
+//  handle vote
 const handleVote = (index) => {
 const newPets = [...pets]; 
 newPets[index].count += 1; 
