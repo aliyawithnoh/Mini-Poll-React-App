@@ -5,9 +5,9 @@ const App = () => {
 // Initialize state with an array of pet objects
 const [pets, setPets] = useState([
 { option: 'Dog', count: 0 },
-{ option: 'Cat', count: 0 },
 { option: 'Bird', count: 0 },
-{ option: 'Fish', count: 0 },
+{ option: 'Cat', count: 0 },
+{ option: 'Human?', count: 0 },
 ]);
 
 // Function to handle vote
